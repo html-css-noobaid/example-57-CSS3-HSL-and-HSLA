@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CSS3: HSL & HSLA</title>
+		<style type="text/css">
+			body {
+				background-color: SlateGray;
+				color: White;
+			}
+
+			h1 {
+				background-color: Salmon;
+			}
+
+			h2 {
+				background-color: DarkCyan;
+				
+			}
+
+			ul {
+				background-color: rgb(0,139,139);
+			
+			}
+
+			#ques {
+				background-color: GoldenRod; 
+			}
+			
+
+			#ans1 {
+				background-color: GoldenRod; 
+			}
+
+			#ans2 {
+				background-color: rgb(218,165,32);  
+			}
+
+			#ans3 {
+				background-color: #DAA520;
+			}
+
+			
+			#opac {
+
+				background-color: red;
+			}
+
+			#opac1 {
+				background-color: blue;
+				opacity: 1;
+			}
+
+			#opac2 {
+				background-color: blue;
+				opacity: 0.7;
+			}
+
+			#opac3 {
+				background-color: blue;
+				opacity: 0.5;
+			}
+				
+			#opac4 {
+				background-color: blue;
+				opacity: 0.3;
+			}
+
+
+			#opac5 {
+				background-color: blue;
+				opacity: 0.0
+			}
+
+			#hslv {
+
+				background-color: hsl(0, 100%, 50%);
+			}
+
+
+			#hslv1 {
+
+				background-color: hsl(0, 100%, 80%);
+			}
+			
+			#hslv2 {
+
+				background-color: hsl(0, 100%, 50%);
+			}
+
+			#hslv3 {
+
+				background-color: hsl(0, 100%, 30%);
+			}
+
+			#hslv4 {
+
+				background-color: hsl(0, 100%, 0%);
+			}
+
+
+			#hsla1 {
+
+				background-color: hsl(180, 100%, 50%, 1);
+			}
+			
+			#hsla2 {
+
+				background-color: hsl(180, 100%, 50%, 0.7);
+			}
+
+			#hsla3 {
+
+				background-color: hsl(180, 100%, 50%, 0.5);
+			}
+
+			#hsla4 {
+
+				background-color: hsl(180, 100%, 50%, 0.3);
+			}
+
+			#hsla5 {
+
+				background-color: hsl(180, 100%, 50%, 0.0);
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<h1>CSS Color Tutorial </h1>
+		
+		<h2>Color Terminology</h2>
+
+		<ul> 
+			<li><b>Hue</b> – Refers to color.</li>
+			<li><b>Saturation</b> – The amount of gray in a 
+			 color. A maximum saturation there would be no gray 
+			 in the color, at minimum saturation , the color 
+			 would be mostly gray. </li>
+			<li><b>Brightness/Value/Lum</b> – How much black is
+			 in a color. At maximum brightness, there would be
+			 not black in the color, at minimum brightness it
+			 would be mostly black.</li>
+		</ul>
+
+		<h2 id="ques">What are the ways to refer to color?</h2>
+		
+		<ol>	
+			<li id="ans1">A predefined color name</li>
+			<li id="ans2">A RGB value</li>
+			<li id="ans3">A hex code</li>
+		</ol>
+
+		<h2>Opacity Values</h2>
+
+		<ul id="opac"> 
+			<li id="opac1">This is a 1 opacity value,
+				the default value, not transparent at 
+				all</li>
+			<li id="opac2">This is a 0.7 opacity value</li>
+			<li id="opac3">This is a 0.5 opacity value</li>
+			<li id="opac4">This is a 0.3 opacity value</li>
+			<li id="opac5">This is a 0.0 opacity value</li>
+		</ul>
+
+		<h2>HSL Values</h2>
+
+		<ul id="hslv"> 
+			<li id="hslv1">This is a 80% lightness value</li>
+			<li id="hslv2">This is a 50% lightness value</li>
+			<li id="hslv3">This is a 30% lightness value</li>		
+			<li id="hslv4">This is a 0% lightness value</li>	
+		</ul>
+
+		<h2>HSLA Values</h2>
+
+		<ul id="hslv"> 
+			<li id="hsla1">This is a 1 alpha value,
+				the default value, not transparent at 
+				all</li>
+			<li id="hsla2">This is a 0.7 alpha value</li>
+			<li id="hsla3">This is a 0.5 alpha value</li>		
+			<li id="hsla4">This is a 0.3 alpha value</li>	
+			<li id="hsla5">This is a 0.0 alpha value</li>
+		</ul>
+	</body>
+</html>
